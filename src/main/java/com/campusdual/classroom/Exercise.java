@@ -1,7 +1,5 @@
 package com.campusdual.classroom;
 
-import java.util.Calendar;
-
 public class Exercise {
 
     public static void main(String[] args) {
@@ -12,6 +10,10 @@ public class Exercise {
         tractor.start();
 
         plane.fly();
+        plane.land();
+
         tractor.forward();
+        tractor.maintenance();
+        tractor.stop();
     }
 }
